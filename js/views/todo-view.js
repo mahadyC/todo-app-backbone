@@ -75,7 +75,7 @@ var app = app || {};
 		// Toggle the `"prioritized"` state of the model.
 		togglePriority: function () {
 			this.model.priorityToggle();
-		}
+		},
 
 		// Switch this view into `"editing"` mode, displaying the input field.
 		edit: function () {
