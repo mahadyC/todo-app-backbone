@@ -72,14 +72,15 @@ var app = app || {};
 			this.model.toggle();
 		},
 
+		// Toggle the `"prioritized"` state of the model.
+		togglePriority: function () {
+			this.model.priorityToggle();
+		}
+
 		// Switch this view into `"editing"` mode, displaying the input field.
 		edit: function () {
 			this.$el.addClass('editing');
 			this.$input.focus();
-		},
-
-		setPriority: function () {
-			this.$el.addClass('priority');
 		},
 
 		// Close the `"editing"` mode, saving changes to the todo.
