@@ -20,7 +20,7 @@ var app = app || {};
 		// Toggle the `prioritized` state of this todo item.
 		priorityToggle: function () {
 			this.save({
-				prioritized: !this.get('prioritized')
+				priority: !this.get('priority')
 			});
 		},
 
