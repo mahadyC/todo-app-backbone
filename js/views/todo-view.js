@@ -24,7 +24,7 @@ var app = app || {};
 			'keydown .edit': 'revertOnEscape',
 			'blur .edit': 'close',
 			'click .edit-btn': 'edit',
-			'click .priority-btn': 'setPriority'
+			'click .priority-btn': 'togglePriority'
 		},
 
 		// The TodoView listens for changes to its model, re-rendering. Since
